@@ -1,0 +1,18 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    #禁止eureka自己的服务注册行为
+    register-with-eureka: false
+    fetch-registry: false
+  # 关闭心跳健康检测的警报
+  server:
+    enable-self-preservation: false
+

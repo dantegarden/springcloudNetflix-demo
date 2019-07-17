@@ -1,0 +1,14 @@
+server:
+  port: 8800
+
+spring:
+  application:
+    name: eureka-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+#   #以hostname替换ip，默认会使用服务所在机器的hostname
+#  instance:
+#    hostname: eurekaClientName
