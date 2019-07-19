@@ -1,0 +1,1677 @@
+{
+  "groups": [
+    {
+      "name": "zuul",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceType": "com.example.demo.gateway.config.ZuulConfig",
+      "sourceMethod": "zuulProperties()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.host",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$Host",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getHost()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.semaphore",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixSemaphore",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getSemaphore()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    },
+    {
+      "name": "zuul.thread-pool",
+      "type": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties$HystrixThreadPool",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties",
+      "sourceMethod": "getThreadPool()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-host-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.add-proxy-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.decode-url",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.force-original-query-string-encoding",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-local-service",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignore-security-headers",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-patterns",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ignored-services",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.include-debug-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.initial-stream-buffer-size",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.prefix",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.remove-semicolon-content",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.retryable",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ribbon-isolation-strategy",
+      "type": "com.netflix.hystrix.HystrixCommandProperties$ExecutionIsolationStrategy",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.routes",
+      "type": "java.util.Map<java.lang.String,org.springframework.cloud.netflix.zuul.filters.ZuulProperties$ZuulRoute>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.sensitive-headers",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.servlet-path",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.set-content-length",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.ssl-hostname-validation-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.strip-prefix",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    },
+    {
+      "name": "zuul.trace-request-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.cloud.netflix.zuul.filters.ZuulProperties"
+    }
+  ],
+  "hints": []
+}

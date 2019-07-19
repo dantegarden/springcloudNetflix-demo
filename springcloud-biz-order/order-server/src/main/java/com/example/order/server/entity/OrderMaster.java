@@ -43,7 +43,7 @@ public class OrderMaster {
     private BigDecimal orderAmount;
 
     /**
-     * 订单状态, 默认为0新下单.
+     * 订单状态, 默认为0等待下单1新下单.
      */
     private Integer orderStatus;
 

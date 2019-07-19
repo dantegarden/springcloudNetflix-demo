@@ -29,9 +29,11 @@
         <module>springcloud-eureka</module>
         <module>springcloud-config-server</module>
         <module>springcloud-eureka-client</module>
+        <module>springcloud-gateway</module>
         <module>springcloud-biz-common</module>
         <module>springcloud-biz-product</module>
         <module>springcloud-biz-order</module>
+        <module>springcloud-biz-user</module>
     </modules>
 
     <properties>
@@ -69,7 +71,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-
+        <!--便于使用传统的xml或properties配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!--dev-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

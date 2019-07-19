@@ -20,6 +20,12 @@
             <groupId>com.example</groupId>
             <artifactId>product-common</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>common-api</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

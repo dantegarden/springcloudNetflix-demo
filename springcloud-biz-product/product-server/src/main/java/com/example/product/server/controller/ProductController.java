@@ -1,7 +1,7 @@
 package com.example.product.server.controller;
 
-import com.example.demo.biz.common.bean.Result;
-import com.example.product.server.dto.CartDTO;
+import com.example.biz.common.web.bean.Result;
+import com.example.product.common.dto.DecreaseStockInput;
 import com.example.product.server.entity.ProductCategory;
 import com.example.product.server.entity.ProductInfo;
 import com.example.product.server.service.ProductCategoryService;
@@ -60,14 +60,14 @@ public class ProductController {
      **/
     @PostMapping("/listForOrder")
     public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList) {
-        return productService.fiindList(productIdList);
+        return productService.findList(productIdList);
     }
 
     /**
      * 减库存 被消费
      */
     @PostMapping("/decreaseStock")
-    public void decreaseStock(@RequestBody List<CartDTO> cartDTOList) {
-        productService.decreaseStock(cartDTOList);
+    public void decreaseStock(@RequestBody List<DecreaseStockInput> decreaseStockInputList) {
+        productService.decreaseStock(decreaseStockInputList);
     }
 }

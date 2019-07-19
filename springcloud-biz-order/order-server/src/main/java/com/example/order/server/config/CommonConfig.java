@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  **/
 
 @Configuration
-@ComponentScan(basePackages = {"com.example.demo"})
+@ComponentScan(basePackages = {"com.example.biz.common", "com.example.product"})
 @EnableFeignClients(basePackages = {"com.example.product.client"})
 public class CommonConfig {
 }

@@ -20,18 +20,14 @@
 
     <properties>
         <order-common.version>0.0.1-SNAPSHOT</order-common.version>
+        <common-api.version>0.0.1-SNAPSHOT</common-api.version>
+        <common-web.version>0.0.1-SNAPSHOT</common-web.version>
     </properties>
 
     <dependencies>
-        <!--feign-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>springcloud-biz-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>common-web</artifactId>
         </dependency>
     </dependencies>
 
@@ -41,6 +37,16 @@
                 <groupId>com.example</groupId>
                 <artifactId>order-common</artifactId>
                 <version>${order-common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>common-api</artifactId>
+                <version>${common-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>common-web</artifactId>
+                <version>${common-web.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.order.server.OrderServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.746 s <<< FAILURE! - in com.example.order.server.OrderServerApplicationTests
+contextLoads(com.example.order.server.OrderServerApplicationTests)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController': Unsatisfied dependency expressed through field 'productMQClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.product.client.ProductMQClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.product.client.ProductMQClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

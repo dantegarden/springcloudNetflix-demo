@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "env",
+      "type": "com.example.order.server.test.properties.EnvProperties",
+      "sourceType": "com.example.order.server.test.properties.EnvProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "env.label",
+      "type": "java.lang.String",
+      "sourceType": "com.example.order.server.test.properties.EnvProperties"
+    },
+    {
+      "name": "env.profile",
+      "type": "java.lang.String",
+      "sourceType": "com.example.order.server.test.properties.EnvProperties"
+    },
+    {
+      "name": "env.version",
+      "type": "java.lang.String",
+      "sourceType": "com.example.order.server.test.properties.EnvProperties"
+    }
+  ],
+  "hints": []
+}

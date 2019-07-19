@@ -1,6 +1,7 @@
 package com.example.product.server.service;
 
 
+import com.example.product.common.dto.DecreaseStockInput;
 import com.example.product.server.dto.CartDTO;
 import com.example.product.server.entity.ProductInfo;
 
@@ -12,10 +13,10 @@ public interface ProductService {
      */
     List<ProductInfo> findUpAll();
 
-    List<ProductInfo> fiindList(List<String> productIdList);
+    List<ProductInfo> findList(List<String> productIdList);
 
     /**
      * 扣库存
      */
-    void decreaseStock(List<CartDTO> cartDTOList);
+    void decreaseStock(List<DecreaseStockInput> decreaseStockInputList);
 }

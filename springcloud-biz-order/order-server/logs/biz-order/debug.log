@@ -1,0 +1,444 @@
+2019-07-17 12:46:52,742 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fec1e9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 12:46:53,046 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:71 - Setting initial instance status as: STARTING
+2019-07-17 12:46:53,143 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:349 - Initializing Eureka in region us-east-1
+2019-07-17 12:46:53,613 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-17 12:46:53,614 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-17 12:46:53,759 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-17 12:46:53,760 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-17 12:46:54,059 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-17 12:46:54,195 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:958 - Disable delta property : false
+2019-07-17 12:46:54,195 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:959 - Single vip registry refresh property : null
+2019-07-17 12:46:54,196 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:960 - Force full registry fetch : false
+2019-07-17 12:46:54,196 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:961 - Application is null : false
+2019-07-17 12:46:54,196 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:962 - Registered Applications size is zero : true
+2019-07-17 12:46:54,197 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:964 - Application version is -1: true
+2019-07-17 12:46:54,197 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1047 - Getting all instance registry info from the eureka server
+2019-07-17 12:46:54,478 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1056 - The response status is 200
+2019-07-17 12:46:54,482 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1317 - Not registering with Eureka server per configuration
+2019-07-17 12:46:54,488 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:449 - Discovery Client initialized at timestamp 1563338814487 with initial instances count: 2
+2019-07-17 12:46:54,722 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:205 - Fetching config from server at : http://USER-20170101CA:8790/
+2019-07-17 12:46:56,262 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:149 - Located environment: name=biz-order, profiles=[dev], label=master, version=e1a1a745edf59cbe381c81dbbbbe87a0e2cd2d52, state=null
+2019-07-17 12:46:56,263 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:98 - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order-dev.yml'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order.yml'}]}
+2019-07-17 12:46:56,283 [main] INFO  [com.example.order.server.MqSenderTest] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2019-07-17 12:46:57,304 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-07-17 12:46:57,309 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-07-17 12:46:57,544 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 12:46:57,547 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 12:46:57,802 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 243ms. Found 2 repository interfaces.
+2019-07-17 12:46:57,818 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 12:46:57,820 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 12:46:57,840 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.order.server.dao.OrderDetailRepository.
+2019-07-17 12:46:57,841 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.order.server.dao.OrderMasterRepository.
+2019-07-17 12:46:57,842 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-07-17 12:46:58,007 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-17 12:46:58,411 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:294 - BeanFactory id=5f15a78e-88b0-3412-933d-fea7c8102642
+2019-07-17 12:46:58,482 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:188 - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-07-17 12:46:58,488 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:275 - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-07-17 12:46:58,518 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:426 - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-07-17 12:46:58,719 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2a7e6e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 12:46:58,800 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 12:46:58,856 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$4d99a213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 12:46:58,916 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fec1e9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 12:46:59,261 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2019-07-17 12:46:59,853 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2019-07-17 12:47:00,175 [main] INFO  [org.hibernate.jpa.internal.util.LogHelper] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-17 12:47:00,300 [main] INFO  [org.hibernate.Version] Version.java:46 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-07-17 12:47:00,303 [main] INFO  [org.hibernate.cfg.Environment] Environment.java:213 - HHH000206: hibernate.properties not found
+2019-07-17 12:47:00,799 [main] INFO  [org.hibernate.annotations.common.Version] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-17 12:47:01,110 [main] INFO  [org.hibernate.dialect.Dialect] Dialect.java:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-07-17 12:47:02,041 [main] INFO  [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean] AbstractEntityManagerFactoryBean.java:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-17 12:47:02,571 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-17 12:47:02,572 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-17 12:47:02,614 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@52a2e2fb
+2019-07-17 12:47:02,977 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'taskScheduler'
+2019-07-17 12:47:04,193 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-17 12:47:04,193 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-17 12:47:04,732 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 12:47:04,824 [main] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] JpaBaseConfiguration.java:237 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-17 12:47:08,394 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:888 - Shutting down DiscoveryClient ...
+2019-07-17 12:47:08,403 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:911 - Completed shut down of DiscoveryClient
+2019-07-17 12:47:08,449 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-17 12:47:08,669 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBusInput' has 1 subscriber(s).
+2019-07-17 12:47:08,713 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-07-17 12:47:08,714 [main] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.errorChannel' has 1 subscriber(s).
+2019-07-17 12:47:08,714 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:159 - started _org.springframework.integration.errorLogger
+2019-07-17 12:47:08,918 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:205 - Fetching config from server at : http://USER-20170101CA:8790/
+2019-07-17 12:47:10,353 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:149 - Located environment: name=biz-order, profiles=[dev], label=master, version=e1a1a745edf59cbe381c81dbbbbe87a0e2cd2d52, state=null
+2019-07-17 12:47:10,353 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:98 - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order-dev.yml'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order.yml'}]}
+2019-07-17 12:47:10,563 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:460 - Attempting to connect to: [192.168.99.100:5672]
+2019-07-17 12:47:10,635 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:496 - Created new connection: rabbitConnectionFactory#383a5260:0/SimpleConnection@5180f430 [delegate=amqp://guest@192.168.99.100:5672/, localPort= 6960]
+2019-07-17 12:47:10,689 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBusOutput' has 1 subscriber(s).
+2019-07-17 12:47:10,710 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:71 - Setting initial instance status as: STARTING
+2019-07-17 12:47:10,719 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:349 - Initializing Eureka in region us-east-1
+2019-07-17 12:47:10,724 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-17 12:47:10,724 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-17 12:47:10,725 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-17 12:47:10,725 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-17 12:47:10,833 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-17 12:47:10,835 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:958 - Disable delta property : false
+2019-07-17 12:47:10,836 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:959 - Single vip registry refresh property : null
+2019-07-17 12:47:10,836 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:960 - Force full registry fetch : false
+2019-07-17 12:47:10,837 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:961 - Application is null : false
+2019-07-17 12:47:10,838 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:962 - Registered Applications size is zero : true
+2019-07-17 12:47:10,839 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:964 - Application version is -1: true
+2019-07-17 12:47:10,839 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1047 - Getting all instance registry info from the eureka server
+2019-07-17 12:47:10,846 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1056 - The response status is 200
+2019-07-17 12:47:10,849 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1270 - Starting heartbeat executor: renew interval is: 30
+2019-07-17 12:47:10,853 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-17 12:47:10,855 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:449 - Discovery Client initialized at timestamp 1563338830855 with initial instances count: 2
+2019-07-17 12:47:10,863 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:42 - Registering application BIZ-ORDER with eureka with status UP
+2019-07-17 12:47:10,864 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Saw local status change event StatusChangeEvent [timestamp=1563338830864, current=UP, previous=STARTING]
+2019-07-17 12:47:10,867 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:826 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001: registering service...
+2019-07-17 12:47:10,899 [main] INFO  [o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner] RabbitExchangeQueueProvisioner.java:159 - declaring queue for inbound: springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA, bound to: springCloudBus
+2019-07-17 12:47:10,916 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:835 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001 - registration status: 204
+2019-07-17 12:47:10,919 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA.errors' has 1 subscriber(s).
+2019-07-17 12:47:10,920 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA.errors' has 2 subscriber(s).
+2019-07-17 12:47:10,947 [main] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:159 - started inbound.springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA
+2019-07-17 12:47:11,013 [main] INFO  [com.example.order.server.MqSenderTest] StartupInfoLogger.java:59 - Started MqSenderTest in 19.633 seconds (JVM running for 21.46)
+2019-07-17 12:47:11,265 [Thread-7] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application BIZ-ORDER with eureka with status DOWN
+2019-07-17 12:47:11,265 [Thread-7] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1303 - Saw local status change event StatusChangeEvent [timestamp=1563338831265, current=DOWN, previous=UP]
+2019-07-17 12:47:11,266 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:826 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001: registering service...
+2019-07-17 12:47:11,270 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:835 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001 - registration status: 204
+2019-07-17 12:47:11,274 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:586 - Waiting for workers to finish.
+2019-07-17 12:47:11,964 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:589 - Successfully waited for workers to finish.
+2019-07-17 12:47:11,969 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:586 - Waiting for workers to finish.
+2019-07-17 12:47:12,949 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:589 - Successfully waited for workers to finish.
+2019-07-17 12:47:12,949 [Thread-7] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:176 - stopped inbound.springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA
+2019-07-17 12:47:12,951 [Thread-7] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA.errors' has 1 subscriber(s).
+2019-07-17 12:47:12,951 [Thread-7] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.NTkwTZnDRuujqYlszKKYhA.errors' has 0 subscriber(s).
+2019-07-17 12:47:12,959 [Thread-7] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-07-17 12:47:12,959 [Thread-7] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.errorChannel' has 0 subscriber(s).
+2019-07-17 12:47:12,959 [Thread-7] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:193 - stopped _org.springframework.integration.errorLogger
+2019-07-17 12:47:12,987 [Thread-7] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 12:47:12,990 [Thread-7] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-07-17 12:47:12,991 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] AbstractMessageListenerContainer.java:1226 - Shutdown ignored - container is not active already
+2019-07-17 12:47:12,994 [Thread-7] INFO  [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean] AbstractEntityManagerFactoryBean.java:597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-17 12:47:13,002 [Thread-7] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2019-07-17 12:47:13,004 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:888 - Shutting down DiscoveryClient ...
+2019-07-17 12:47:16,005 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:922 - Unregistering ...
+2019-07-17 12:47:16,010 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:924 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001 - deregister  status: 200
+2019-07-17 12:47:16,018 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:911 - Completed shut down of DiscoveryClient
+2019-07-17 13:02:51,011 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fec1e9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 13:02:51,306 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:71 - Setting initial instance status as: STARTING
+2019-07-17 13:02:51,413 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:349 - Initializing Eureka in region us-east-1
+2019-07-17 13:02:51,875 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-17 13:02:51,875 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-17 13:02:52,031 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-17 13:02:52,031 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-17 13:02:52,351 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-17 13:02:52,489 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:958 - Disable delta property : false
+2019-07-17 13:02:52,489 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:959 - Single vip registry refresh property : null
+2019-07-17 13:02:52,489 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:960 - Force full registry fetch : false
+2019-07-17 13:02:52,490 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:961 - Application is null : false
+2019-07-17 13:02:52,490 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:962 - Registered Applications size is zero : true
+2019-07-17 13:02:52,490 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:964 - Application version is -1: true
+2019-07-17 13:02:52,490 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1047 - Getting all instance registry info from the eureka server
+2019-07-17 13:02:52,790 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1056 - The response status is 200
+2019-07-17 13:02:52,794 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1317 - Not registering with Eureka server per configuration
+2019-07-17 13:02:52,801 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:449 - Discovery Client initialized at timestamp 1563339772800 with initial instances count: 2
+2019-07-17 13:02:53,094 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:205 - Fetching config from server at : http://USER-20170101CA:8790/
+2019-07-17 13:02:54,663 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:149 - Located environment: name=biz-order, profiles=[dev], label=master, version=e1a1a745edf59cbe381c81dbbbbe87a0e2cd2d52, state=null
+2019-07-17 13:02:54,664 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:98 - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order-dev.yml'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order.yml'}]}
+2019-07-17 13:02:54,677 [main] INFO  [com.example.order.server.MqSenderTest] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2019-07-17 13:02:55,770 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-07-17 13:02:55,775 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-07-17 13:02:56,026 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 13:02:56,028 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 13:02:56,231 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 190ms. Found 2 repository interfaces.
+2019-07-17 13:02:56,242 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 13:02:56,244 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 13:02:56,260 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.order.server.dao.OrderDetailRepository.
+2019-07-17 13:02:56,261 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.order.server.dao.OrderMasterRepository.
+2019-07-17 13:02:56,261 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-07-17 13:02:56,415 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-17 13:02:56,815 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:294 - BeanFactory id=5f15a78e-88b0-3412-933d-fea7c8102642
+2019-07-17 13:02:56,883 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:188 - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-07-17 13:02:56,891 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:275 - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-07-17 13:02:56,901 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:426 - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-07-17 13:02:57,087 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2a7e6e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 13:02:57,150 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 13:02:57,213 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$4d99a213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 13:02:57,270 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fec1e9e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 13:02:57,632 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2019-07-17 13:02:58,263 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2019-07-17 13:02:58,611 [main] INFO  [org.hibernate.jpa.internal.util.LogHelper] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-17 13:02:58,757 [main] INFO  [org.hibernate.Version] Version.java:46 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-07-17 13:02:58,760 [main] INFO  [org.hibernate.cfg.Environment] Environment.java:213 - HHH000206: hibernate.properties not found
+2019-07-17 13:02:59,243 [main] INFO  [org.hibernate.annotations.common.Version] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-17 13:02:59,461 [main] INFO  [org.hibernate.dialect.Dialect] Dialect.java:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-07-17 13:03:00,375 [main] INFO  [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean] AbstractEntityManagerFactoryBean.java:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-17 13:03:00,905 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-17 13:03:00,906 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-17 13:03:00,929 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5089a72b
+2019-07-17 13:03:01,287 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'taskScheduler'
+2019-07-17 13:03:02,555 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-17 13:03:02,555 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-17 13:03:03,058 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 13:03:03,132 [main] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration] JpaBaseConfiguration.java:237 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-17 13:03:06,791 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:888 - Shutting down DiscoveryClient ...
+2019-07-17 13:03:06,799 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:911 - Completed shut down of DiscoveryClient
+2019-07-17 13:03:06,856 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-07-17 13:03:07,118 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBusInput' has 1 subscriber(s).
+2019-07-17 13:03:07,163 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-07-17 13:03:07,164 [main] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.errorChannel' has 1 subscriber(s).
+2019-07-17 13:03:07,164 [main] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:159 - started _org.springframework.integration.errorLogger
+2019-07-17 13:03:07,384 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:205 - Fetching config from server at : http://USER-20170101CA:8790/
+2019-07-17 13:03:08,870 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:149 - Located environment: name=biz-order, profiles=[dev], label=master, version=e1a1a745edf59cbe381c81dbbbbe87a0e2cd2d52, state=null
+2019-07-17 13:03:08,871 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:98 - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order-dev.yml'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order.yml'}]}
+2019-07-17 13:03:09,098 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:460 - Attempting to connect to: [192.168.99.100:5672]
+2019-07-17 13:03:09,177 [main] INFO  [o.s.a.rabbit.connection.CachingConnectionFactory] AbstractConnectionFactory.java:496 - Created new connection: rabbitConnectionFactory#5de32e00:0/SimpleConnection@23b260ed [delegate=amqp://guest@192.168.99.100:5672/, localPort= 7616]
+2019-07-17 13:03:09,233 [main] INFO  [o.s.c.stream.messaging.DirectWithAttributesChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBusOutput' has 1 subscriber(s).
+2019-07-17 13:03:09,256 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:71 - Setting initial instance status as: STARTING
+2019-07-17 13:03:09,268 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:349 - Initializing Eureka in region us-east-1
+2019-07-17 13:03:09,273 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-17 13:03:09,273 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-17 13:03:09,274 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-17 13:03:09,275 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-17 13:03:09,360 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-17 13:03:09,361 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:958 - Disable delta property : false
+2019-07-17 13:03:09,362 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:959 - Single vip registry refresh property : null
+2019-07-17 13:03:09,362 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:960 - Force full registry fetch : false
+2019-07-17 13:03:09,362 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:961 - Application is null : false
+2019-07-17 13:03:09,363 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:962 - Registered Applications size is zero : true
+2019-07-17 13:03:09,363 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:964 - Application version is -1: true
+2019-07-17 13:03:09,363 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1047 - Getting all instance registry info from the eureka server
+2019-07-17 13:03:09,367 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1056 - The response status is 200
+2019-07-17 13:03:09,369 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1270 - Starting heartbeat executor: renew interval is: 30
+2019-07-17 13:03:09,373 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-17 13:03:09,375 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:449 - Discovery Client initialized at timestamp 1563339789375 with initial instances count: 2
+2019-07-17 13:03:09,381 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:42 - Registering application BIZ-ORDER with eureka with status UP
+2019-07-17 13:03:09,381 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1305 - Saw local status change event StatusChangeEvent [timestamp=1563339789381, current=UP, previous=STARTING]
+2019-07-17 13:03:09,384 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:826 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001: registering service...
+2019-07-17 13:03:09,415 [main] INFO  [o.s.c.s.b.r.p.RabbitExchangeQueueProvisioner] RabbitExchangeQueueProvisioner.java:159 - declaring queue for inbound: springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ, bound to: springCloudBus
+2019-07-17 13:03:09,432 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:835 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001 - registration status: 204
+2019-07-17 13:03:09,435 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ.errors' has 1 subscriber(s).
+2019-07-17 13:03:09,436 [main] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ.errors' has 2 subscriber(s).
+2019-07-17 13:03:09,458 [main] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:159 - started inbound.springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ
+2019-07-17 13:03:09,530 [main] INFO  [com.example.order.server.MqSenderTest] StartupInfoLogger.java:59 - Started MqSenderTest in 20.247 seconds (JVM running for 22.185)
+2019-07-17 13:03:09,721 [Thread-7] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application BIZ-ORDER with eureka with status DOWN
+2019-07-17 13:03:09,721 [Thread-7] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1303 - Saw local status change event StatusChangeEvent [timestamp=1563339789721, current=DOWN, previous=UP]
+2019-07-17 13:03:09,721 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:826 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001: registering service...
+2019-07-17 13:03:09,726 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:835 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001 - registration status: 204
+2019-07-17 13:03:09,730 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:586 - Waiting for workers to finish.
+2019-07-17 13:03:10,474 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:589 - Successfully waited for workers to finish.
+2019-07-17 13:03:10,476 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:586 - Waiting for workers to finish.
+2019-07-17 13:03:10,479 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:589 - Successfully waited for workers to finish.
+2019-07-17 13:03:10,481 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:586 - Waiting for workers to finish.
+2019-07-17 13:03:10,485 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:589 - Successfully waited for workers to finish.
+2019-07-17 13:03:10,488 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:586 - Waiting for workers to finish.
+2019-07-17 13:03:11,459 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] SimpleMessageListenerContainer.java:589 - Successfully waited for workers to finish.
+2019-07-17 13:03:11,460 [Thread-7] INFO  [o.s.i.amqp.inbound.AmqpInboundChannelAdapter] AbstractEndpoint.java:176 - stopped inbound.springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ
+2019-07-17 13:03:11,461 [Thread-7] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ.errors' has 1 subscriber(s).
+2019-07-17 13:03:11,462 [Thread-7] INFO  [o.s.cloud.stream.binder.BinderErrorChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.springCloudBus.anonymous.OTHRuMp0ROiqKKd8vu4hjQ.errors' has 0 subscriber(s).
+2019-07-17 13:03:11,466 [Thread-7] INFO  [o.s.integration.endpoint.EventDrivenConsumer] EventDrivenConsumer.java:107 - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2019-07-17 13:03:11,467 [Thread-7] INFO  [o.s.integration.channel.PublishSubscribeChannel] AbstractSubscribableChannel.java:64 - Channel 'biz-order-1.errorChannel' has 0 subscriber(s).
+2019-07-17 13:03:11,467 [Thread-7] INFO  [o.s.integration.endpoint.EventDrivenConsumer] AbstractEndpoint.java:193 - stopped _org.springframework.integration.errorLogger
+2019-07-17 13:03:11,491 [Thread-7] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 13:03:11,494 [Thread-7] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-07-17 13:03:11,495 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] AbstractMessageListenerContainer.java:1226 - Shutdown ignored - container is not active already
+2019-07-17 13:03:11,495 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] AbstractMessageListenerContainer.java:1226 - Shutdown ignored - container is not active already
+2019-07-17 13:03:11,496 [Thread-7] INFO  [o.s.a.r.listener.SimpleMessageListenerContainer] AbstractMessageListenerContainer.java:1226 - Shutdown ignored - container is not active already
+2019-07-17 13:03:11,498 [Thread-7] INFO  [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean] AbstractEntityManagerFactoryBean.java:597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-17 13:03:11,509 [Thread-7] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2019-07-17 13:03:11,510 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:888 - Shutting down DiscoveryClient ...
+2019-07-17 13:03:14,511 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:922 - Unregistering ...
+2019-07-17 13:03:14,515 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:924 - DiscoveryClient_BIZ-ORDER/USER-20170101CA:biz-order:9001 - deregister  status: 200
+2019-07-17 13:03:14,520 [Thread-7] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:911 - Completed shut down of DiscoveryClient
+2019-07-17 16:33:14,294 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3584c3d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 16:33:14,573 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:71 - Setting initial instance status as: STARTING
+2019-07-17 16:33:14,647 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:349 - Initializing Eureka in region us-east-1
+2019-07-17 16:33:15,088 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-17 16:33:15,089 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-17 16:33:15,258 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-17 16:33:15,258 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-17 16:33:15,556 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-17 16:33:15,692 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:958 - Disable delta property : false
+2019-07-17 16:33:15,693 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:959 - Single vip registry refresh property : null
+2019-07-17 16:33:15,693 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:960 - Force full registry fetch : false
+2019-07-17 16:33:15,694 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:961 - Application is null : false
+2019-07-17 16:33:15,694 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:962 - Registered Applications size is zero : true
+2019-07-17 16:33:15,695 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:964 - Application version is -1: true
+2019-07-17 16:33:15,695 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1047 - Getting all instance registry info from the eureka server
+2019-07-17 16:33:15,927 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1056 - The response status is 200
+2019-07-17 16:33:15,931 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1317 - Not registering with Eureka server per configuration
+2019-07-17 16:33:15,938 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:449 - Discovery Client initialized at timestamp 1563352395937 with initial instances count: 2
+2019-07-17 16:33:16,184 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:205 - Fetching config from server at : http://USER-20170101CA:8790/
+2019-07-17 16:33:17,775 [main] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:149 - Located environment: name=biz-order, profiles=[dev], label=master, version=10fb5928bb024b94bfeff10b4fe298e180bda087, state=null
+2019-07-17 16:33:17,775 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:98 - Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order-dev.yml'}, MapPropertySource {name='https://github.com/dantegarden/springcloudNetflix-demo-repo/biz-order.yml'}]}
+2019-07-17 16:33:17,786 [main] INFO  [c.example.order.server.OrderServerApplicationTests] SpringApplication.java:675 - No active profile set, falling back to default profiles: default
+2019-07-17 16:33:18,799 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2019-07-17 16:33:18,802 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2019-07-17 16:33:19,004 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 16:33:19,007 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 16:33:19,186 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 169ms. Found 2 repository interfaces.
+2019-07-17 16:33:19,200 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 16:33:19,202 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 16:33:19,222 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.order.server.dao.OrderDetailRepository.
+2019-07-17 16:33:19,224 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.order.server.dao.OrderMasterRepository.
+2019-07-17 16:33:19,224 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-07-17 16:33:19,384 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:135 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-17 16:33:19,796 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:294 - BeanFactory id=6a3caf1a-cd26-3e9b-aab1-7e5225f3d507
+2019-07-17 16:33:19,870 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:188 - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2019-07-17 16:33:19,875 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:275 - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2019-07-17 16:33:19,886 [main] INFO  [o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor] DefaultConfiguringBeanFactoryPostProcessor.java:426 - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2019-07-17 16:33:20,065 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$196ac0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 16:33:20,116 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 16:33:20,166 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$845c7c08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 16:33:20,200 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3584c3d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 16:33:20,485 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2019-07-17 16:33:21,052 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2019-07-17 16:33:21,354 [main] INFO  [org.hibernate.jpa.internal.util.LogHelper] LogHelper.java:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-17 16:33:21,610 [main] INFO  [org.hibernate.Version] Version.java:46 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-07-17 16:33:21,612 [main] INFO  [org.hibernate.cfg.Environment] Environment.java:213 - HHH000206: hibernate.properties not found
+2019-07-17 16:33:21,816 [main] INFO  [org.hibernate.annotations.common.Version] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-17 16:33:22,006 [main] INFO  [org.hibernate.dialect.Dialect] Dialect.java:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-07-17 16:33:22,784 [main] INFO  [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean] AbstractEntityManagerFactoryBean.java:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-17 16:33:23,242 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-17 16:33:23,243 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-17 16:33:23,266 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@35630ee8
+2019-07-17 16:33:23,601 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'taskScheduler'
+2019-07-17 16:33:23,894 [main] WARN  [o.s.w.context.support.GenericWebApplicationContext] AbstractApplicationContext.java:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController': Unsatisfied dependency expressed through field 'productMQClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.product.client.ProductMQClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-07-17 16:33:23,895 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:208 - Shutting down ExecutorService 'taskScheduler'
+2019-07-17 16:33:23,900 [main] WARN  [o.s.c.a.AnnotationConfigApplicationContext] AbstractApplicationContext.java:1012 - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'rabbitConnectionFactory': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:239)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:196)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:408)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1009)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:975)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:79)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:562)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+2019-07-17 16:33:23,902 [main] INFO  [o.s.orm.jpa.LocalContainerEntityManagerFactoryBean] AbstractEntityManagerFactoryBean.java:597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-17 16:33:23,908 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2019-07-17 16:33:23,931 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-17 16:33:23,932 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:888 - Shutting down DiscoveryClient ...
+2019-07-17 16:33:23,943 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:911 - Completed shut down of DiscoveryClient
+2019-07-17 16:33:24,205 [main] ERROR [o.s.b.diagnostics.LoggingFailureAnalysisReporter] LoggingFailureAnalysisReporter.java:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productMQClient in com.example.order.server.test.controller.ClientController required a bean of type 'com.example.product.client.ProductMQClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.product.client.ProductMQClient' in your configuration.
+
+2019-07-17 16:33:24,207 [main] ERROR [o.springframework.test.context.TestContextManager] TestContextManager.java:250 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@120f102b] to prepare test instance [com.example.order.server.OrderServerApplicationTests@4125bc3c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController': Unsatisfied dependency expressed through field 'productMQClient'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.product.client.ProductMQClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.product.client.ProductMQClient' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1654)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1213)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 45 common frames omitted

@@ -1,6 +1,6 @@
 package com.example.order.server.controller;
 
-import com.example.demo.biz.common.bean.Result;
+import com.example.biz.common.web.bean.Result;
 import com.example.order.server.converter.OrderForm2OrderDTOConverter;
 import com.example.order.server.dto.OrderDTO;
 import com.example.order.server.enums.ExceptionEnum;
@@ -14,6 +14,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
@@ -27,8 +28,10 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
+    /**买家下单**/
     @PostMapping("/create")
     public Result<Map<String, Object>> create(@Valid OrderForm orderForm, BindingResult bindingResult) {
+        //参数校验
         if (bindingResult.hasErrors()) {
             log.error("【创建订单】参数不正确，orderForm={}", orderForm);
             throw new OrderException(ExceptionEnum.PARAM_ERROR.getCode(),
@@ -43,5 +46,12 @@ public class OrderController {
         OrderDTO result = orderService.create(orderDTO);
 
         return Result.ok(ImmutableMap.of("orderId", result.getOrderId()));
+    }
+
+    /***卖家接单*/
+    @PostMapping("/finish")
+    public Result<OrderDTO> finish(@RequestParam String orderId){
+        OrderDTO orderDTO = orderService.finish(orderId);
+        return Result.ok(orderDTO);
     }
 }

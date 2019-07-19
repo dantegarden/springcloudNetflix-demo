@@ -3,10 +3,6 @@ package com.example.order.server.service;
 
 import com.example.order.server.dto.OrderDTO;
 
-/**
- * Created by 廖师兄
- * 2017-12-10 16:39
- */
 public interface OrderService {
 
     /**
@@ -16,6 +12,11 @@ public interface OrderService {
      * @return
      */
     OrderDTO create(OrderDTO orderDTO);
+
+    /**
+     * 修改订单状态为入库
+     * */
+    void changeOrderStatus(String orderId);
 
     /**
      * 完结订单(只能卖家操作)

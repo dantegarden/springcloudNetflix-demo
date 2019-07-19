@@ -1,7 +1,7 @@
 package com.example.product.client;
 
-import com.example.product.common.DecreaseStockInput;
-import com.example.product.common.ProductInfoOutput;
+import com.example.product.common.dto.DecreaseStockInput;
+import com.example.product.common.dto.ProductInfoOutput;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

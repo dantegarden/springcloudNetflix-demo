@@ -10,7 +10,44 @@ spring:
       label: master
     bus:
       id: ${spring.application.name}:${spring.cloud.config.profile}:${random.value}
+    stream:
+      bindings:
+        requestProductDecrease:
+          destination: orderExchange
+          group: order
+          content-type: application/json
+        responseProductDecrease:
+          destination: orderAckExchange
+          group: order
+          content-type: application/json
+  # 绑定到zipkin
+  zipkin:
+    sender:
+      type: RABBIT
+  sleuth:
+    # 设置采样率，默认0.1，开发环境设置为1.0
+    sampler:
+      probability: 1.0
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 9001
+
+
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
+
+#定义feign的超时时间
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
