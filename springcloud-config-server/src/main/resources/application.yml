@@ -10,7 +10,7 @@ spring:
         git:
           uri: https://github.com/dantegarden/springcloudNetflix-demo-repo
           username: dantegarden
-          password: 10121118Dante
+          password: your_password
           # git本地仓库地址
           basedir: /workspace/java/springcloudNetflix-demo/config-basedir/repo
   rabbitmq:
